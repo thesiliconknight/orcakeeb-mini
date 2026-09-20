@@ -27,18 +27,21 @@ A 16-key mechanical macropad featuring a rotary encoder, per-key RGB, and a 0.91
 
 ## Bill of Materials (BOM)
 
-| Qty | Component | Footprint | Designator(s) |
-| :---: | :--- | :--- | :--- |
-| 15 | 100nf Capacitor | C_0603_1608Metric | C1, C2, C3, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16 |
-| 1 | 10uf Capacitor | C_0603_1608Metric | C17 |
-| 1 | 10nF Capacitor | C_0603_1608Metric | C22 |
-| 15 | SK6812MINI-E LED | LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount | D1, D2, D3, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16 |
-| 15 | 1N4148W Diode | D_SOD-123 | D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D30, D31, D32 |
-| 2 | 10k Resistor | R_0603_1608Metric | R3, R4 |
-| 15 | SW_Push (Cherry MX) | SW_Cherry_MX_1.00u_PCB | SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW14, SW15, SW16 |
-| 1 | RotaryEncoder_Switch | RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm | SW19 |
-| 1 | RP2040_MICRO | RP2040 MINI | U1 |
-| 1 | 0.91_OLED | Untitled | U2 |
+| Qty | Component | Designators | Unit Price (in INR) | Total Cost (also INR) | Source/Links |
+| :---: | :--- | :--- | :---: | :---: | :--- |
+| 1 | RP2040-Zero Dev-Board | U1 | 250.00 | 250.00 | [Robu.in](https://robu.in/product/rp2040-zero-for-raspberry-pi-microcontroller-with-soldering/) |
+| 1 | 0.91" I2C OLED  | U2 | 212.00 | 212.00 | [Robu.in](https://robu.in/product/blue-oled-display-module/) |
+| 1 | EC11 Encoder | SW19 | 47.00 | 47.00 | [Robu.in](https://robu.in/product/m274-360-degree-rotary-encoder-module-brick-sensor/) |
+| 15 | SK6812MINI-E RGB LED | D1-D3, D5-D16 | 8.60 | 155.00 | [ETStore](https://www.etstore.in/products/e9974) |
+| 15 | Mechanical Switches | SW1-SW12, SW14-SW16 | 18.00 | 360.00 | [StacksKB](https://stackskb.com/store/click-inc-hp-switch-pack-of-10-pre-order/) |
+| 1 | Numpad Keycap Set | - | 100.00 | 100.00 | [StacksKB](https://stackskb.com/store/numpad-keycaps/?attribute_variant=Black+Gradient) |
+| 15 | 1N4148W Diode | D17-D28, D30-D32 | 0.70 | 14.00 | [Robu.in](https://robu.in/product/1n4148w-sod-123-1206-diodereel-of-3000/) |
+| 2 | 10kΩ Resistor  | R3, R4 | 0.86 | 10.00 | [Robu.in](https://robu.in/product/10k-ohm-1-4w-0603-surface-mount-chip-resistor-pack-of-100/) |
+| 1 | 10µF Capacitor  | C17 | 1.54 | 10.64 | [Robu.in](https://robu.in/product/tcc0603x5r106k160ct-cctc-smt-ceramic-capacitors-0603-x5r-106k10%c2%b5f%c2%b110-rated-voltage16v-thickness0-80mm-tape/) |
+| 1 | 10nF Capacitor  | C22 | 0.50 | 10.29 | [Robu.in](https://robu.in/product/tcc0603x7r103k500cts-cctc-smt-ceramic-capacitors-0603-x7r-103k10nf%c2%b110-rated-voltage50v-thickness0-80mm-tape/) |
+| 15 | 100nF Capacitor | C1-C3, C5-C16 | 0.00 | 0.00 | [Robu.in](https://robu.in/product/100nf-0603-surface-mount-multilayer-ceramic-capacitor-pack-of-40/) |
+| 5 | Custom PCB | - | 405.00 | 2025.00 | no link see folder |
+| | | | **Total:** | **₹3,193.93** (33.29) | |
 
 | Schematic Design |
 | :---: |
