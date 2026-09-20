@@ -1,6 +1,6 @@
 # orcakeeb-mini
 
-A 16-key mechanical macropad featuring a rotary encoder, per-key RGB, and a 0.91-inch OLED screen. The board is built around the Waveshare RP2040-Zero module, which handles the USB-C connection and logic, allowing for a highly compact PCB design. Fully compatible with QMK and KMK (CircuitPython) firmware.
+A 16-key mechanical macropad with a rotary encoder, individual RGB, and a 0.91 inch OLED screen. The board is built around the Waveshare (or clone)  RP2040-Zero devboard, which handles the data and power. Fully compatible with QMK and KMK (CircuitPython) firmware.(Ive used KMK)
 
 ## Pictures
 
@@ -10,20 +10,20 @@ A 16-key mechanical macropad featuring a rotary encoder, per-key RGB, and a 0.91
 
 ## Features
 
-* **Main Controller:** Waveshare RP2040-Zero, providing a dual-core ARM Cortex-M0+ and natively handling USB-C and 3.3V regulation.
-* **Switch Matrix:** 4x4 grid supporting 16 TTC low-profile mechanical switches, fully diode-isolated to prevent ghosting.
-* **RGB Leds:** 16 reverse-mounted SK6812MINI-E LEDs sitting flush inside the switch cutouts. Powered directly via the 5V VBUS line.
-* **Rotary Encoder:** Standard rotary encoder with push-button functionality. Relies on internal RP2040 pull-up resistors and software debouncing.
-* **OLED Display:** I2C header for a standard 0.91" SSD1306 OLED module to display active layers, WPM, or custom graphics.
+* **Main Controller:** Waveshare RP2040-Zero Devboard (clones are also ok)
+* **Switch Matrix:** 3x4 + 1x3 grid supporting 15 cherry-mx (or compatible) mechanical switches,with individual diodes to prevent ghosting.
+* **RGB Leds:** 16 reverse-mounted SK6812MINI-E LEDs inside the switch cutouts.
+* **Rotary Encoder:** Standard rotary encoder with push-button functionality. 
+* **OLED Display:** I2C header for a 0.91 inch OLED module to display modes or custom graphics.
 
 ## Components Used
 
 * **Microcontroller:** Waveshare RP2040-Zero Dev-Board
-* **Switches:** 16x Cherry MX Switches or similar knock-offs
-* **Diodes:** 16x 1N4148 
-* **LEDs:** 16x SK6812MINI-E
-* **Screen:** 0.91" SSD1306 I2C OLED Module
-* **Miscellaneous:** 1x 10µF Ceramic Cap (for main 5V), 16x 0.1µF Caps (LED decoupling), EC11 (or similar knockoffs) Rotary Encoder
+* **Switches:** 15x Cherry MX Switches or similar knock-offs
+* **Diodes:** 15x 1N4148 
+* **LEDs:** 15x SK6812MINI-E
+* **Screen:** 0.91 inch I2C OLED Module
+* **Miscellaneous:** 1x 10µF Ceramic Cap , 16x 0.1µF Caps, EC11 (or similar knockoffs) Rotary Encoder
 
 ## Bill of Materials (BOM)
 
